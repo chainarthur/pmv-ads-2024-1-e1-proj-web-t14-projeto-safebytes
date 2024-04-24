@@ -1,0 +1,72 @@
+/* FOLHA DE ESTILOS PAGINICIAL */
+
+/* CONFIGURAÇÕES GERAIS */
+* {
+    font-family: "Open Sans", "Roboto", "Montserrat", "Poppins", sans-serif;
+    margin: 0;
+}
+body {
+    background-color: #A3C8FF !important;
+    background-image: url(../assets/bgImg03.png), url(../assets/bgImg05.png);
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: scroll, fixed;
+    background-position-y: top, bottom;  
+}
+h1 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff !important;
+    background: transparent !important;
+}
+h2 {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+/* HEADER */
+header {
+    background-image: url(../assets/bgImg02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.cabecalho {
+    display: inline;
+}
+#perfil {
+    width: 15%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 80%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* LISTA */
+.lista {
+    margin-top: 35%;
+}
+
+.lista-box {
+    display: flex;
+}
+
+.lista-itens {
+    color: #fff;
+    font-weight: lighter;
+    background-color: #00288F;
+    
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    
+}
+
+ i {
+    color: #ffffff;
+    border-radius: 100%;
+    font-size: 45px;
+    margin: 0 30px;
+}
