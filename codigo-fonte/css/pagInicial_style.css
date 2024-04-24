@@ -1,0 +1,176 @@
+/* FOLHA DE ESTILOS PAGINICIAL */
+
+/* CONFIGURAÇÕES GERAIS */
+* {
+    font-family: "Open Sans", "Roboto", "Montserrat", "Poppins", sans-serif;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(163, 200, 255, 1) 80%, rgba(53, 93, 197, 1) 100%);
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 12px;
+}
+
+main {
+    background-color: #A3C8FF;
+}
+
+/* HEADER */
+header {
+    background-color: #355DC5;
+    width: 100%;
+}
+
+.cabecalho {
+    display: inline;
+}
+
+#logo {
+    width: 15%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+
+.search-box {
+    background-color: #fff;
+    display: inline;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#search {
+    border: none;
+}
+
+.search-btn,
+.bi-search {
+    color: #909090;
+    text-decoration: none;
+}
+
+#search-btn {
+    background-color: #fff;
+}
+
+#perfil {
+    width: 15%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* SECPRINCIPAL */
+.secPrincipal {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    background-image: url("../assets/bgImg01.png");
+    background-repeat: no-repeat;
+
+}
+
+.card-group {
+    display: flex;
+}
+
+.card {
+    width: 30%;
+    margin-left: 9px;
+    margin-top: 20px;
+    border: none !important;
+    border-radius: 20%;
+    background-color: #ffffffa6 !important;
+    color: #00288F !important;
+}
+
+.card .card-img-top {
+    margin-bottom: 5px;
+    width: auto;
+    height: 80px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.card-body {
+    border-radius: 20%;
+}
+
+/* SECCONTINUE */
+.secContinue>div {
+    position: relative;
+    padding: 40px 15px;
+    display: flex !important;
+    flex-direction: row;
+}
+
+.secContinue img {
+    width: 100px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.tituloTutorial {
+    margin-left: 15px;
+}
+
+.tituloTutorial>h2,
+.tituloTutorial>h3 {
+    color: #00288F;
+}
+
+.tituloTutorial>h3 {
+    font-weight: bold;
+}
+
+/* SECLISTAS */
+#tutoriais,
+#quizzes {
+    width: 130px;
+    height: 130px;
+    margin: 20px 15px;
+}
+
+.secListas>div {
+    position: relative;
+    padding: 15px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+}
