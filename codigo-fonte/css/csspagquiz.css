@@ -33,6 +33,7 @@
     align-items: start;
     justify-content: center;
     margin-top: 45px;
+    margin-left: 8px;
   }
 
   .progresso {
@@ -90,22 +91,25 @@
     color: #233156;
   }
   .titulo {
-    background-image: url(../assets/bgImg02.png);
-    background-size:;        /* Ajusta o tamanho da imagem para cobrir todo o espaço disponível */
-    background-position: center;   /* Centraliza a imagem no elemento */
-    background-repeat: no-repeat;  /* Evita que a imagem se repita */
-    padding-top: 0px;
+    background-image: url(../assets/Vector\ 6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;    
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;                 /* Defina uma altura adequada para o cabeçalho */
+    height: 100px;
+    width: 100%;
 }
   .body{
       background: linear-gradient(180deg, #b3cdf3 24.32%, #2d5a9e 100%);
       display: flex;
-      max-width: 360px;
+      max-width: 560px;
       padding-bottom: 180px;
       flex-direction: column;
-    
-  
     }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+  }
