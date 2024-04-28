@@ -1,35 +1,9 @@
-.cabecalho{
-    background-color: blue;
-    height: 60px;
-    padding-bottom: 10%;
-}
 
 
 .barra{
-    background-color: blueviolet;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
-
-.corpo{
-    background-color: grey;
-    padding-top: 10%;
-    padding-bottom: 40%;
-}
-
-.pergunta{
-    background-color: yellow;
-    margin-top: 40px;
-}
-
-  .titulo {
-    position: relative;
-    background-color: rgba(53, 93, 197, 1);
-    display: flex;
-    align-items: start;
-    gap: 20px;
-    padding: 15px 20px 35px 0;
-  }
 
   .icone {
     aspect-ratio: 0.82;
@@ -41,7 +15,7 @@
 
   .pergunta_titulo {
     font-family: Open Sans, sans-serif;
-    margin-top: 8px;
+    margin-top: 4%;
     flex-grow: 1;
     flex-basis: auto;
     text-align: center;
@@ -53,20 +27,20 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background-color: #d9d9d9;
     display: flex;
-    width: 309px;
+    width: 369px;
     max-width: 100%;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    margin: auto;
+    margin-top: 45px;
   }
 
   .progresso {
     border-radius: 22px;
     background-color: #00288f;
     width: 65px;
-    height: 19px;
-  }
+    height: 21px;
+    }
 
   .numero {
     color: #eae7e7;
@@ -74,30 +48,32 @@
     align-self: start;
     margin: 6px 0 0 20px;
     font: 600 18px Open Sans, sans-serif;
+    margin-left: 10px;
+    margin-bottom: 70px;
   }
 
   .pergunta_quiz {
     border-radius: 14px;
     background-color: rgba(232, 232, 232, 1);
     align-self: stretch;
-    margin-top: 112px;
     color: #233156;
     text-align: center;
     justify-content: center;
-    padding: 31px 18px;
+    padding: 40px 0px;
     font: 400 20px Open Sans, sans-serif;
-    
+    margin: 3%;
+ 
   }
 
   .true-button,.false-button {
     border-radius: 18px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     width: 100%;
-    max-width: 230px;
+    max-width: 200px;
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding: 35px 60px;
+    padding: 20px 60px;
     font: 700 18px Open Sans, sans-serif;
     margin: auto;
   }
@@ -113,3 +89,23 @@
     margin-top: 25px;
     color: #233156;
   }
+  .titulo {
+    background-image: url(../assets/bgImg02.png);
+    background-size:;        /* Ajusta o tamanho da imagem para cobrir todo o espaço disponível */
+    background-position: center;   /* Centraliza a imagem no elemento */
+    background-repeat: no-repeat;  /* Evita que a imagem se repita */
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;                 /* Defina uma altura adequada para o cabeçalho */
+}
+  .body{
+      background: linear-gradient(180deg, #b3cdf3 24.32%, #2d5a9e 100%);
+      display: flex;
+      max-width: 360px;
+      padding-bottom: 180px;
+      flex-direction: column;
+    
+  
+    }
